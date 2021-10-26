@@ -1,0 +1,9 @@
+[package]
+name = "mut-cert-sni"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+rustls = "0.20"
+webpki = { version = "0.22.0", features = ["alloc", "std"] }
+anyhow = "1.0"
